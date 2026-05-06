@@ -50,7 +50,7 @@ export default function PrintDesign() {
           </div>
           <div className="relative">
             <img 
-              src="https://drive.google.com/file/d/1OJvAh58h1uX7wGrqNZWkop-bm50mDC9m/view?usp=sharing" 
+              src="https://images.unsplash.com/photo-1614036634955-ae5e90f9b9eb" 
               alt="Print Design" 
               className="rounded-3xl shadow-xl w-full object-cover aspect-[5/4]"
             />
@@ -107,12 +107,12 @@ export default function PrintDesign() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
-              <img src="/images/printdesign1.jpg" alt="Print Quality" className="h-40 w-full object-cover rounded-2xl shadow-lg" />
-              <img src="/images/printdesign2.jpg" alt="Print Details" className="h-60 w-full object-cover rounded-2xl shadow-lg" />
+              <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5" alt="Print Quality" className="h-40 w-full object-cover rounded-2xl shadow-lg" />
+              <img src="https://images.unsplash.com/photo-1510511336377-1a9caa095849" alt="Print Details" className="h-60 w-full object-cover rounded-2xl shadow-lg" />
             </div>
             <div className="space-y-4 pt-8">
-              <img src="/images/printdesign3.jpg" alt="Press Print" className="h-60 w-full object-cover rounded-2xl shadow-lg" />
-              <img src="/images/printdesign4.jpg" alt="Graphic Prints" className="h-40 w-full object-cover rounded-2xl shadow-lg" />
+              <img src="https://images.unsplash.com/photo-1503694978374-8a2fa686963a" alt="Press Print" className="h-60 w-full object-cover rounded-2xl shadow-lg" />
+              <img src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a" alt="Graphic Prints1" className="h-40 w-full object-cover rounded-2xl shadow-lg" />
             </div>
           </div>
         </div>
