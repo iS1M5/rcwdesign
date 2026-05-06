@@ -50,7 +50,7 @@ export default function PrintDesign() {
           </div>
           <div className="relative">
             <img 
-              src="/images/printdesign5.jpg" 
+              src="https://drive.google.com/file/d/1OJvAh58h1uX7wGrqNZWkop-bm50mDC9m/view?usp=sharing" 
               alt="Print Design" 
               className="rounded-3xl shadow-xl w-full object-cover aspect-[5/4]"
             />
