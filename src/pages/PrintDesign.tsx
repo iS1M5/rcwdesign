@@ -1,12 +1,6 @@
 import { motion } from 'motion/react';
 import { Palette, Layout, PenTool, Image, FileText, CreditCard } from 'lucide-react';
 
-import printDesign1 from '../images/printdesign1.jpg';
-import printDesign2 from '../images/printdesign2.jpg';
-import printDesign3 from '../images/printdesign3.jpg';
-import printDesign4 from '../images/printdesign4.jpg';
-import printDesign5 from '../images/printdesign5.jpg';
-
 export default function PrintDesign() {
   const services = [
     {
@@ -56,7 +50,7 @@ export default function PrintDesign() {
           </div>
           <div className="relative">
             <img 
-              src={printDesign5} 
+              src="/images/printdesign5.jpg" 
               alt="Print Design" 
               className="rounded-3xl shadow-xl w-full object-cover aspect-[5/4]"
             />
@@ -113,12 +107,12 @@ export default function PrintDesign() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
-              <img src={printDesign1} alt="Print Quality" className="h-40 w-full object-cover rounded-2xl shadow-lg" />
-              <img src={printDesign2} alt="Print Details" className="h-60 w-full object-cover rounded-2xl shadow-lg" />
+              <img src="/images/printdesign1.jpg" alt="Print Quality" className="h-40 w-full object-cover rounded-2xl shadow-lg" />
+              <img src="/images/printdesign2.jpg" alt="Print Details" className="h-60 w-full object-cover rounded-2xl shadow-lg" />
             </div>
             <div className="space-y-4 pt-8">
-              <img src={printDesign3} alt="Press Print" className="h-60 w-full object-cover rounded-2xl shadow-lg" />
-              <img src={printDesign4} alt="Graphic Prints" className="h-40 w-full object-cover rounded-2xl shadow-lg" />
+              <img src="/images/printdesign3.jpg" alt="Press Print" className="h-60 w-full object-cover rounded-2xl shadow-lg" />
+              <img src="/images/printdesign4.jpg" alt="Graphic Prints" className="h-40 w-full object-cover rounded-2xl shadow-lg" />
             </div>
           </div>
         </div>
