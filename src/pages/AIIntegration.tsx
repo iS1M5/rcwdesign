@@ -48,7 +48,7 @@ export default function AIIntegration() {
             <h1 className="text-5xl md:text-7xl font-serif mb-8 leading-tight">
               AI & Automation <span className="italic">Integration</span>.
             </h1>
-            <p className="text-xl text-brand-muted leading-relaxed mb-8">
+            <p className="text-xl text-[#000000] leading-relaxed mb-8">
               Utilising n8n and advanced AI models to streamline your workflows and let technology do the heavy lifting for you.
             </p>
           </div>
@@ -80,7 +80,7 @@ export default function AIIntegration() {
           <div>
             <h2 className="text-sm uppercase tracking-[0.2em] text-brand-muted font-sans font-semibold mb-6">The Power of n8n</h2>
             <h3 className="text-4xl md:text-5xl font-serif mb-8">Why n8n for your business?</h3>
-            <div className="space-y-6 text-lg text-brand-muted leading-relaxed">
+            <div className="space-y-6 text-lg text-black leading-relaxed">
               <p>
                 n8n is a powerful workflow automation tool that allows for complex, multi-step integrations without the high costs of traditional enterprise software.
               </p>
@@ -128,7 +128,7 @@ export default function AIIntegration() {
                   {useCase.icon}
                 </div>
                 <h4 className="text-2xl font-serif mb-4">{useCase.title}</h4>
-                <p className="text-brand-muted leading-relaxed">
+                <p className="text-black leading-relaxed">
                   {useCase.description}
                 </p>
               </motion.div>
@@ -141,7 +141,7 @@ export default function AIIntegration() {
       <section className="px-6 py-24 max-w-7xl mx-auto text-center">
         <div className="bg-purple-50 rounded-[3rem] p-12 md:p-24">
           <h2 className="text-4xl md:text-6xl font-serif mb-8 text-brand-ink">Ready to automate?</h2>
-          <div className="text-xl text-brand-muted mb-12 max-w-2xl mx-auto space-y-6">
+          <div className="text-xl text-black mb-12 max-w-2xl mx-auto space-y-6">
             <p>
               Let's identify the bottlenecks in your business and build intelligent systems to eliminate them.
             </p>

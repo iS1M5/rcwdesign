@@ -40,7 +40,7 @@ export default function Home() {
           <h1 className="text-5xl md:text-7xl font-serif leading-[1.1] mb-8">
             Digital solutions crafted with <span className="italic">precision</span> and <span className="italic">purpose</span>.
           </h1>
-          <p className="text-xl text-brand-muted leading-relaxed mb-12 max-w-2xl">
+          <p className="text-xl text-black leading-relaxed mb-12 max-w-2xl">
             I help businesses evolve through custom web applications, intelligent automation, and high-impact visual design.
           </p>
           <div className="flex flex-wrap gap-4">
@@ -79,7 +79,7 @@ export default function Home() {
                     {service.icon}
                   </div>
                   <h4 className="text-2xl font-serif mb-4">{service.title}</h4>
-                  <p className="text-brand-muted leading-relaxed mb-8">
+                  <p className="text-black leading-relaxed mb-8">
                     {service.description}
                   </p>
                   <div className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-brand-ink group-hover:text-brand-accent transition-colors">
@@ -106,7 +106,7 @@ export default function Home() {
           <div>
             <h2 className="text-sm uppercase tracking-[0.2em] text-brand-muted font-sans font-semibold mb-6">My Philosophy</h2>
             <h3 className="text-4xl md:text-5xl font-serif mb-8 leading-tight">Less noise, more <span className="italic">impact</span>.</h3>
-            <div className="space-y-6 text-lg text-brand-muted leading-relaxed">
+            <div className="space-y-6 text-lg text-black leading-relaxed">
               <p>
                 In a world of digital clutter, I believe in the power of minimalism. My approach focuses on stripping away the unnecessary to let your core message shine.
               </p>

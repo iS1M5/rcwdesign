@@ -41,10 +41,10 @@ export default function WebAppDev() {
       <section className="px-6 py-24 md:py-32 max-w-7xl mx-auto border-b border-brand-ink/5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           <div>
-            <h1 className="text-5xl md:text-7xl font-serif mb-8 leading-tight">
+            <h1 className="text-[69px] font-serif mb-8 leading-tight">
               Full-Stack <span className="italic">Web App</span> Development.
             </h1>
-            <p className="text-xl text-brand-muted leading-relaxed mb-8">
+            <p className="text-xl text-[#1c1c1c] leading-relaxed mb-8">
               Moving beyond the limitations of conventional websites to build powerful digital tools that drive business growth.
             </p>
           </div>
@@ -81,7 +81,7 @@ export default function WebAppDev() {
             >
               <div className="mb-6">{benefit.icon}</div>
               <h4 className="text-xl font-serif mb-4">{benefit.title}</h4>
-              <p className="text-brand-muted leading-relaxed">
+              <p className="text-black leading-relaxed">
                 {benefit.description}
               </p>
             </motion.div>
@@ -118,10 +118,10 @@ export default function WebAppDev() {
                 { step: '04', title: 'Launch', text: 'Rigorous testing and seamless deployment.' }
               ].map((item) => (
                 <div key={item.step} className="flex gap-8">
-                  <div className="text-4xl font-serif text-brand-accent/20">{item.step}</div>
+                  <div className="text-4xl font-serif text-[#3d6398]">{item.step}</div>
                   <div>
                     <h4 className="text-xl font-serif mb-2">{item.title}</h4>
-                    <p className="text-brand-muted">{item.text}</p>
+                    <p className="text-[#1c1c1c]">{item.text}</p>
                   </div>
                 </div>
               ))}

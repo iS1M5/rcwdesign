@@ -21,7 +21,7 @@ export default function Contact() {
           <h1 className="text-5xl md:text-7xl font-serif leading-[1.1] mb-8">
             Let's build something <span className="italic">great</span>.
           </h1>
-          <p className="text-xl text-brand-muted leading-relaxed mb-12 max-w-2xl mx-auto">
+          <p className="text-xl text-black leading-relaxed mb-12 max-w-2xl mx-auto">
             Ready to bring your ideas to life? Get in touch directly to start exploring your next web app, AI integration, or print design project.
           </p>
           

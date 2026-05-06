@@ -44,7 +44,7 @@ export default function PrintDesign() {
             <h1 className="text-5xl md:text-7xl font-serif mb-8 leading-tight">
               Conventional <span className="italic">Print</span> Design.
             </h1>
-            <p className="text-xl text-brand-muted leading-relaxed mb-8">
+            <p className="text-xl text-[#000000] leading-relaxed mb-8">
               Timeless visual communication for the physical world. High-quality design for flyers, magazines, and more.
             </p>
           </div>
@@ -82,7 +82,7 @@ export default function PrintDesign() {
                 {service.icon}
               </div>
               <h4 className="text-2xl font-serif mb-4">{service.title}</h4>
-              <p className="text-brand-muted leading-relaxed">
+              <p className="text-black leading-relaxed">
                 {service.description}
               </p>
             </motion.div>
@@ -96,7 +96,7 @@ export default function PrintDesign() {
           <div>
             <h2 className="text-sm uppercase tracking-[0.2em] text-brand-muted font-sans font-semibold mb-6">Quality First</h2>
             <h3 className="text-4xl md:text-5xl font-serif mb-8">Print-ready precision.</h3>
-            <div className="space-y-6 text-lg text-brand-muted leading-relaxed">
+            <div className="space-y-6 text-lg text-black leading-relaxed">
               <p>
                 Digital design is only half the battle. I ensure every file is perfectly prepared for the press, with correct bleeds, margins, and colour profiles (CMYK).
               </p>
